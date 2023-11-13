@@ -2,7 +2,8 @@
 
 # Examples
  - [Duplicates](#duplicates)
- - [Highest Number](#highestnumber)
+ - [Highest Number](#highest)
+ -
 
 ## Duplicates
 # Find duplicate values and count them in an array or internal table 
