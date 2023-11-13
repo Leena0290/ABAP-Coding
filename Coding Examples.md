@@ -5,7 +5,7 @@
  - [Highest Number](#highest-number)
  
 ## Duplicates
-# Find duplicate values and count them in an array or internal table 
+## Find duplicate values and count them in an array or internal table 
 
 ``` abap
 DATA: itab    TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line,
@@ -38,7 +38,7 @@ ENDLOOP.
 ``` 
 
 ## Highest Number
-# Code to find the highest value in an array/ from a list of items.
+## Code to find the highest value in an array/ from a list of items.
 ``` abap
 DATA : itab TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line .		
 		
