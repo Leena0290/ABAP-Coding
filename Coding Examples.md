@@ -2,7 +2,7 @@
 
 # Examples
  - [Duplicates](#duplicates)
- - [Highest Number](#highest)
+ - [Highest Number](#highest-number)
  -
 
 ## Duplicates
