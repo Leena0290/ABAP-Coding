@@ -1,23 +1,21 @@
+<a name="top"></a>
 
-# String Manipulation
+# Examples
  - [Duplicates](#duplicates)
- - [Helper Classes](#helper-classes)
- - [Business Object](#business-object)
-
-
-
-
+ - 
 
 ## Duplicates
-find duplicate values and count them in an array or internal table 
-DATA : itab    TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line,
-       old_val TYPE i.
+Find duplicate values and count them in an array or internal table 
+
+``` abap
+DATA: itab    TYPE SORTED TABLE OF i WITH NON-UNIQUE KEY table_line,
+      old_val TYPE i.
 
 "Sorted table {1,4,4,5,9,10,12,12,12 }
 itab = VALUE #( ( 9 ) ( 4 )  ( 10 ) ( 12 )  ( 5 ) ( 1 ) ( 12 ) ( 12 ) ( 4 ) ).
 
 LOOP AT itab ASSIGNING FIELD-SYMBOL(<itab_wa>).
-  "To switch every time to count duplicates
+  " Switch every time to count duplicates
   AT NEW table_line.
     IF <itab_wa> <> old_val.
       DATA(count) = 1.
@@ -37,3 +35,5 @@ LOOP AT itab ASSIGNING FIELD-SYMBOL(<itab_wa>).
   ENDAT.
   old_val = <itab_wa>.
 ENDLOOP.
+``` 
+<p align="right"><a href="#top">⬆️ back to top</a></p>
