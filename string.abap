@@ -1,6 +1,7 @@
 
-Given a string s consisting of words and spaces, return the length of the last word in the string.
+//Given a string s consisting of words and spaces, return the length of the last word in the string.
 //https://leetcode.com/problems/length-of-last-word/description/
+
 CLASS ZCL_LENGTH_LAST_WORD DEFINITION
   PUBLIC
   FINAL
