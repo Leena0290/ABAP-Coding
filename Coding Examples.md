@@ -3,7 +3,7 @@
 # Examples
  - [Duplicates](#duplicates)
  - [Highest Number](#highest-number)
- - [Length of Last Word](https://github.com/Leena0290/ABAP-Coding/edit/main/Coding%20Examples.md#:~:text=string-,.,-abap)
+ - [Length of Last Word](https://github.com/Leena0290/ABAP-Coding/blob/main/string.abap)
  
 ## Duplicates
 ## Find duplicate values and count them in an array or internal table 
