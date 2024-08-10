@@ -1,7 +1,7 @@
 <a name="top"></a>
 
 # Examples
- - [Duplicates](#duplicates)
+ - [Duplicates](https://github.com/Leena0290/ABAP-Coding/blob/main/Duplicates.abap)
  - [Highest Number](#highest-number)
  - [Length of Last Word](https://github.com/Leena0290/ABAP-Coding/blob/main/string.abap)
  
