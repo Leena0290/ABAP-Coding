@@ -1,5 +1,5 @@
 # ABAP-Coding
-A list of commonly asked interview questions for SAP ABAP coding rounds, especially from tech companies.
+This is a collection of commonly asked interview questions for SAP ABAP coding rounds by Tech companies seeking ABAP Developers, specifically focused on arrays and string operations.
 <a name="top"></a>
 
 # Examples
