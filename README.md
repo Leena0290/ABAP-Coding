@@ -1,5 +1,5 @@
 # ABAP-Coding
-ABAP programs
+A list of commonly asked interview questions for SAP ABAP coding rounds, especially from tech companies.
 <a name="top"></a>
 
 # Examples
